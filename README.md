@@ -13,10 +13,11 @@ Also handles context creation on Win32 (because nobody wants to do that).
 	#define WB_GL_LOADER_IMPLEMENTATION
 	#include "wb_gl_loader.h"
 	...
+	// somewhere in main, maybe
 	{
 		wbgl_win32_create_context(windowDC, 3, 3, 1);
 		wbgl_load_all(NULL);
-	* }
+	}
 
 ## Versions
 
